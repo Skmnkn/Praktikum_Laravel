@@ -17,11 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/user/{name?}', function ($name=null) {
-    return "halo ".$name;
-});
+// Route::get('/user/{name?}', function ($name=null) {
+//     return "halo ".$name;
+// });
 
-Route::view('/hello', 'hello', ['name' => 'Kimin']);
+// Route::view('/hello', 'hello', ['name' => 'Kimin']);
 
 // Route::redirect('/hello', '/');
 
+// Route::get('/', function () {
+//     return view('tryblade.child');
+// });
+
+Route::view('/try', 'tryblade.child');
