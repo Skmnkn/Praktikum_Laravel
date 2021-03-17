@@ -250,8 +250,8 @@ return [
         [
             'text' => 'Buku',
             'url'  => 'buku',
-            'icon' => 'fa fa-book',
-            'can'  => 'isAdmin',
+            'icon' => 'fas fa-fw fa-book',
+            // 'can' => 'isAdmin',
         ],
         [
             'text' => 'change_password',
